@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23AAE2762858FDD13D83C4BF /* Pods_TasksApp_TasksAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEEEEA0F8E10A7C34F49737 /* Pods_TasksApp_TasksAppUITests.framework */; };
+		80D560CF25585FB500DDC792 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D560CE25585FB500DDC792 /* AppDelegate.swift */; };
+		80D560D125585FB500DDC792 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D560D025585FB500DDC792 /* SceneDelegate.swift */; };
+		80D560D325585FB500DDC792 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D560D225585FB500DDC792 /* ContentView.swift */; };
+		80D560D525585FB700DDC792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D560D425585FB700DDC792 /* Assets.xcassets */; };
+		80D560D825585FB700DDC792 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D560D725585FB700DDC792 /* Preview Assets.xcassets */; };
+		80D560DB25585FB700DDC792 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D560D925585FB700DDC792 /* LaunchScreen.storyboard */; };
+		80D560E625585FB800DDC792 /* TasksAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D560E525585FB800DDC792 /* TasksAppTests.swift */; };
+		80D560F125585FB800DDC792 /* TasksAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D560F025585FB800DDC792 /* TasksAppUITests.swift */; };
+		80D5610325585FE600DDC792 /* AppDelegate+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D5610225585FE600DDC792 /* AppDelegate+Injection.swift */; };
+		9DFE38CD5BA529A6F8140963 /* Pods_TasksAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33EEF76DC8D964C3B10331D /* Pods_TasksAppTests.framework */; };
+		B1BD00249D7C11DBAB69893B /* Pods_TasksApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33EA72B96072C7BD76756D1 /* Pods_TasksApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80D560E225585FB800DDC792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80D560C325585FB500DDC792 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80D560CA25585FB500DDC792;
+			remoteInfo = TasksApp;
+		};
+		80D560ED25585FB800DDC792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80D560C325585FB500DDC792 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80D560CA25585FB500DDC792;
+			remoteInfo = TasksApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		249763C070C4B33BA582F48F /* Pods-TasksApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TasksApp.debug.xcconfig"; path = "Target Support Files/Pods-TasksApp/Pods-TasksApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4787D8415C940525E0F8AB45 /* Pods-TasksAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TasksAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TasksAppTests/Pods-TasksAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		80D560CB25585FB500DDC792 /* TasksApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasksApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D560CE25585FB500DDC792 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80D560D025585FB500DDC792 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		80D560D225585FB500DDC792 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		80D560D425585FB700DDC792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80D560D725585FB700DDC792 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		80D560DA25585FB700DDC792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80D560DC25585FB700DDC792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D560E125585FB800DDC792 /* TasksAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasksAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D560E525585FB800DDC792 /* TasksAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksAppTests.swift; sourceTree = "<group>"; };
+		80D560E725585FB800DDC792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D560EC25585FB800DDC792 /* TasksAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasksAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D560F025585FB800DDC792 /* TasksAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksAppUITests.swift; sourceTree = "<group>"; };
+		80D560F225585FB800DDC792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D5610225585FE600DDC792 /* AppDelegate+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Injection.swift"; sourceTree = "<group>"; };
+		8B99A60F375FE88AADB3FE2E /* Pods-TasksApp-TasksAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TasksApp-TasksAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-TasksApp-TasksAppUITests/Pods-TasksApp-TasksAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		928904AF20AC3AFFDD2C45AF /* Pods-TasksApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TasksApp.release.xcconfig"; path = "Target Support Files/Pods-TasksApp/Pods-TasksApp.release.xcconfig"; sourceTree = "<group>"; };
+		A33EA72B96072C7BD76756D1 /* Pods_TasksApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TasksApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEEEEA0F8E10A7C34F49737 /* Pods_TasksApp_TasksAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TasksApp_TasksAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A02C38453BECBA8FC4A783 /* Pods-TasksAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TasksAppTests.release.xcconfig"; path = "Target Support Files/Pods-TasksAppTests/Pods-TasksAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		D33EEF76DC8D964C3B10331D /* Pods_TasksAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TasksAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB921365086483760ADE6EC /* Pods-TasksApp-TasksAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TasksApp-TasksAppUITests.release.xcconfig"; path = "Target Support Files/Pods-TasksApp-TasksAppUITests/Pods-TasksApp-TasksAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80D560C825585FB500DDC792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1BD00249D7C11DBAB69893B /* Pods_TasksApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D560DE25585FB800DDC792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFE38CD5BA529A6F8140963 /* Pods_TasksAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D560E925585FB800DDC792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23AAE2762858FDD13D83C4BF /* Pods_TasksApp_TasksAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80D560C225585FB500DDC792 = {
+			isa = PBXGroup;
+			children = (
+				80D560CD25585FB500DDC792 /* TasksApp */,
+				80D560E425585FB800DDC792 /* TasksAppTests */,
+				80D560EF25585FB800DDC792 /* TasksAppUITests */,
+				80D560CC25585FB500DDC792 /* Products */,
+				E0FA7F89A3777456D86E6C9A /* Pods */,
+				C774E44B87FBC63C7085CC71 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		80D560CC25585FB500DDC792 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80D560CB25585FB500DDC792 /* TasksApp.app */,
+				80D560E125585FB800DDC792 /* TasksAppTests.xctest */,
+				80D560EC25585FB800DDC792 /* TasksAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80D560CD25585FB500DDC792 /* TasksApp */ = {
+			isa = PBXGroup;
+			children = (
+				80D5610125585FC300DDC792 /* App */,
+				80D560D225585FB500DDC792 /* ContentView.swift */,
+				80D560D425585FB700DDC792 /* Assets.xcassets */,
+				80D560D925585FB700DDC792 /* LaunchScreen.storyboard */,
+				80D560DC25585FB700DDC792 /* Info.plist */,
+				80D560D625585FB700DDC792 /* Preview Content */,
+			);
+			path = TasksApp;
+			sourceTree = "<group>";
+		};
+		80D560D625585FB700DDC792 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				80D560D725585FB700DDC792 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		80D560E425585FB800DDC792 /* TasksAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				80D560E525585FB800DDC792 /* TasksAppTests.swift */,
+				80D560E725585FB800DDC792 /* Info.plist */,
+			);
+			path = TasksAppTests;
+			sourceTree = "<group>";
+		};
+		80D560EF25585FB800DDC792 /* TasksAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80D560F025585FB800DDC792 /* TasksAppUITests.swift */,
+				80D560F225585FB800DDC792 /* Info.plist */,
+			);
+			path = TasksAppUITests;
+			sourceTree = "<group>";
+		};
+		80D5610125585FC300DDC792 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				80D560CE25585FB500DDC792 /* AppDelegate.swift */,
+				80D560D025585FB500DDC792 /* SceneDelegate.swift */,
+				80D5610225585FE600DDC792 /* AppDelegate+Injection.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C774E44B87FBC63C7085CC71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A33EA72B96072C7BD76756D1 /* Pods_TasksApp.framework */,
+				ADEEEEA0F8E10A7C34F49737 /* Pods_TasksApp_TasksAppUITests.framework */,
+				D33EEF76DC8D964C3B10331D /* Pods_TasksAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0FA7F89A3777456D86E6C9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				249763C070C4B33BA582F48F /* Pods-TasksApp.debug.xcconfig */,
+				928904AF20AC3AFFDD2C45AF /* Pods-TasksApp.release.xcconfig */,
+				8B99A60F375FE88AADB3FE2E /* Pods-TasksApp-TasksAppUITests.debug.xcconfig */,
+				ECB921365086483760ADE6EC /* Pods-TasksApp-TasksAppUITests.release.xcconfig */,
+				4787D8415C940525E0F8AB45 /* Pods-TasksAppTests.debug.xcconfig */,
+				B4A02C38453BECBA8FC4A783 /* Pods-TasksAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80D560CA25585FB500DDC792 /* TasksApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D560F525585FB800DDC792 /* Build configuration list for PBXNativeTarget "TasksApp" */;
+			buildPhases = (
+				D25C6B635F69F9667D55367A /* [CP] Check Pods Manifest.lock */,
+				80D560C725585FB500DDC792 /* Sources */,
+				80D560C825585FB500DDC792 /* Frameworks */,
+				80D560C925585FB500DDC792 /* Resources */,
+				C0928673F0304146A4D71B21 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TasksApp;
+			productName = TasksApp;
+			productReference = 80D560CB25585FB500DDC792 /* TasksApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80D560E025585FB800DDC792 /* TasksAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D560F825585FB800DDC792 /* Build configuration list for PBXNativeTarget "TasksAppTests" */;
+			buildPhases = (
+				CBABC7588DE9D98700F0A68A /* [CP] Check Pods Manifest.lock */,
+				80D560DD25585FB800DDC792 /* Sources */,
+				80D560DE25585FB800DDC792 /* Frameworks */,
+				80D560DF25585FB800DDC792 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80D560E325585FB800DDC792 /* PBXTargetDependency */,
+			);
+			name = TasksAppTests;
+			productName = TasksAppTests;
+			productReference = 80D560E125585FB800DDC792 /* TasksAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80D560EB25585FB800DDC792 /* TasksAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D560FB25585FB800DDC792 /* Build configuration list for PBXNativeTarget "TasksAppUITests" */;
+			buildPhases = (
+				2494C994DA17D725BFA1B9AF /* [CP] Check Pods Manifest.lock */,
+				80D560E825585FB800DDC792 /* Sources */,
+				80D560E925585FB800DDC792 /* Frameworks */,
+				80D560EA25585FB800DDC792 /* Resources */,
+				B24A6A37B6037ED3BA17DBFB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80D560EE25585FB800DDC792 /* PBXTargetDependency */,
+			);
+			name = TasksAppUITests;
+			productName = TasksAppUITests;
+			productReference = 80D560EC25585FB800DDC792 /* TasksAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80D560C325585FB500DDC792 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					80D560CA25585FB500DDC792 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					80D560E025585FB800DDC792 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 80D560CA25585FB500DDC792;
+					};
+					80D560EB25585FB800DDC792 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 80D560CA25585FB500DDC792;
+					};
+				};
+			};
+			buildConfigurationList = 80D560C625585FB500DDC792 /* Build configuration list for PBXProject "TasksApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80D560C225585FB500DDC792;
+			productRefGroup = 80D560CC25585FB500DDC792 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80D560CA25585FB500DDC792 /* TasksApp */,
+				80D560E025585FB800DDC792 /* TasksAppTests */,
+				80D560EB25585FB800DDC792 /* TasksAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80D560C925585FB500DDC792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D560DB25585FB700DDC792 /* LaunchScreen.storyboard in Resources */,
+				80D560D825585FB700DDC792 /* Preview Assets.xcassets in Resources */,
+				80D560D525585FB700DDC792 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D560DF25585FB800DDC792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D560EA25585FB800DDC792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2494C994DA17D725BFA1B9AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TasksApp-TasksAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B24A6A37B6037ED3BA17DBFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TasksApp-TasksAppUITests/Pods-TasksApp-TasksAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TasksApp-TasksAppUITests/Pods-TasksApp-TasksAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TasksApp-TasksAppUITests/Pods-TasksApp-TasksAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0928673F0304146A4D71B21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TasksApp/Pods-TasksApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TasksApp/Pods-TasksApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TasksApp/Pods-TasksApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBABC7588DE9D98700F0A68A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TasksAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D25C6B635F69F9667D55367A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TasksApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80D560C725585FB500DDC792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D5610325585FE600DDC792 /* AppDelegate+Injection.swift in Sources */,
+				80D560CF25585FB500DDC792 /* AppDelegate.swift in Sources */,
+				80D560D125585FB500DDC792 /* SceneDelegate.swift in Sources */,
+				80D560D325585FB500DDC792 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D560DD25585FB800DDC792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D560E625585FB800DDC792 /* TasksAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D560E825585FB800DDC792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D560F125585FB800DDC792 /* TasksAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80D560E325585FB800DDC792 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80D560CA25585FB500DDC792 /* TasksApp */;
+			targetProxy = 80D560E225585FB800DDC792 /* PBXContainerItemProxy */;
+		};
+		80D560EE25585FB800DDC792 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80D560CA25585FB500DDC792 /* TasksApp */;
+			targetProxy = 80D560ED25585FB800DDC792 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80D560D925585FB700DDC792 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D560DA25585FB700DDC792 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80D560F325585FB800DDC792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80D560F425585FB800DDC792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80D560F625585FB800DDC792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 249763C070C4B33BA582F48F /* Pods-TasksApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TasksApp/Preview Content\"";
+				DEVELOPMENT_TEAM = XXYB66DA42;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TasksApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.efemaz.TasksApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80D560F725585FB800DDC792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 928904AF20AC3AFFDD2C45AF /* Pods-TasksApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TasksApp/Preview Content\"";
+				DEVELOPMENT_TEAM = XXYB66DA42;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TasksApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.efemaz.TasksApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80D560F925585FB800DDC792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4787D8415C940525E0F8AB45 /* Pods-TasksAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXYB66DA42;
+				INFOPLIST_FILE = TasksAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.efemaz.TasksAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TasksApp.app/TasksApp";
+			};
+			name = Debug;
+		};
+		80D560FA25585FB800DDC792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4A02C38453BECBA8FC4A783 /* Pods-TasksAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXYB66DA42;
+				INFOPLIST_FILE = TasksAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.efemaz.TasksAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TasksApp.app/TasksApp";
+			};
+			name = Release;
+		};
+		80D560FC25585FB800DDC792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B99A60F375FE88AADB3FE2E /* Pods-TasksApp-TasksAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXYB66DA42;
+				INFOPLIST_FILE = TasksAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.efemaz.TasksAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TasksApp;
+			};
+			name = Debug;
+		};
+		80D560FD25585FB800DDC792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECB921365086483760ADE6EC /* Pods-TasksApp-TasksAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXYB66DA42;
+				INFOPLIST_FILE = TasksAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.efemaz.TasksAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TasksApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80D560C625585FB500DDC792 /* Build configuration list for PBXProject "TasksApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D560F325585FB800DDC792 /* Debug */,
+				80D560F425585FB800DDC792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D560F525585FB800DDC792 /* Build configuration list for PBXNativeTarget "TasksApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D560F625585FB800DDC792 /* Debug */,
+				80D560F725585FB800DDC792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D560F825585FB800DDC792 /* Build configuration list for PBXNativeTarget "TasksAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D560F925585FB800DDC792 /* Debug */,
+				80D560FA25585FB800DDC792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D560FB25585FB800DDC792 /* Build configuration list for PBXNativeTarget "TasksAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D560FC25585FB800DDC792 /* Debug */,
+				80D560FD25585FB800DDC792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80D560C325585FB500DDC792 /* Project object */;
+}
