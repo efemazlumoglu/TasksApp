@@ -10,6 +10,7 @@
 		23AAE2762858FDD13D83C4BF /* Pods_TasksApp_TasksAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEEEEA0F8E10A7C34F49737 /* Pods_TasksApp_TasksAppUITests.framework */; };
 		80A78CF525601A670088A47A /* Publisher+Assign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A78CF425601A670088A47A /* Publisher+Assign.swift */; };
 		80A78CFB25601B0A0088A47A /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A78CFA25601B0A0088A47A /* SettingsViewModel.swift */; };
+		80A78D0025601BF70088A47A /* TaskCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A78CFF25601BF70088A47A /* TaskCellViewModel.swift */; };
 		80D560CF25585FB500DDC792 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D560CE25585FB500DDC792 /* AppDelegate.swift */; };
 		80D560D125585FB500DDC792 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D560D025585FB500DDC792 /* SceneDelegate.swift */; };
 		80D560D325585FB500DDC792 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D560D225585FB500DDC792 /* ContentView.swift */; };
@@ -49,6 +50,7 @@
 		4787D8415C940525E0F8AB45 /* Pods-TasksAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TasksAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TasksAppTests/Pods-TasksAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		80A78CF425601A670088A47A /* Publisher+Assign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publisher+Assign.swift"; sourceTree = "<group>"; };
 		80A78CFA25601B0A0088A47A /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		80A78CFF25601BF70088A47A /* TaskCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCellViewModel.swift; sourceTree = "<group>"; };
 		80D560CB25585FB500DDC792 /* TasksApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasksApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D560CE25585FB500DDC792 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80D560D025585FB500DDC792 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				80A78CFA25601B0A0088A47A /* SettingsViewModel.swift */,
+				80A78CFF25601BF70088A47A /* TaskCellViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -488,6 +491,7 @@
 				80A78CF525601A670088A47A /* Publisher+Assign.swift in Sources */,
 				80D5610325585FE600DDC792 /* AppDelegate+Injection.swift in Sources */,
 				80D560CF25585FB500DDC792 /* AppDelegate.swift in Sources */,
+				80A78D0025601BF70088A47A /* TaskCellViewModel.swift in Sources */,
 				80A78CFB25601B0A0088A47A /* SettingsViewModel.swift in Sources */,
 				80D561322558651700DDC792 /* Task.swift in Sources */,
 				80D560D125585FB500DDC792 /* SceneDelegate.swift in Sources */,
