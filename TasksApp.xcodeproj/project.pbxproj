@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		23AAE2762858FDD13D83C4BF /* Pods_TasksApp_TasksAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEEEEA0F8E10A7C34F49737 /* Pods_TasksApp_TasksAppUITests.framework */; };
+		80A78CF525601A670088A47A /* Publisher+Assign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A78CF425601A670088A47A /* Publisher+Assign.swift */; };
 		80D560CF25585FB500DDC792 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D560CE25585FB500DDC792 /* AppDelegate.swift */; };
 		80D560D125585FB500DDC792 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D560D025585FB500DDC792 /* SceneDelegate.swift */; };
 		80D560D325585FB500DDC792 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D560D225585FB500DDC792 /* ContentView.swift */; };
@@ -45,6 +46,7 @@
 /* Begin PBXFileReference section */
 		249763C070C4B33BA582F48F /* Pods-TasksApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TasksApp.debug.xcconfig"; path = "Target Support Files/Pods-TasksApp/Pods-TasksApp.debug.xcconfig"; sourceTree = "<group>"; };
 		4787D8415C940525E0F8AB45 /* Pods-TasksAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TasksAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TasksAppTests/Pods-TasksAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		80A78CF425601A670088A47A /* Publisher+Assign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publisher+Assign.swift"; sourceTree = "<group>"; };
 		80D560CB25585FB500DDC792 /* TasksApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasksApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D560CE25585FB500DDC792 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80D560D025585FB500DDC792 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				80D5614625586A3200DDC792 /* EnvironmentKeys.swift */,
+				80A78CF425601A670088A47A /* Publisher+Assign.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -471,6 +474,7 @@
 			files = (
 				80D561382558660B00DDC792 /* TaskRepository.swift in Sources */,
 				80D5614725586A3200DDC792 /* EnvironmentKeys.swift in Sources */,
+				80A78CF525601A670088A47A /* Publisher+Assign.swift in Sources */,
 				80D5610325585FE600DDC792 /* AppDelegate+Injection.swift in Sources */,
 				80D560CF25585FB500DDC792 /* AppDelegate.swift in Sources */,
 				80D561322558651700DDC792 /* Task.swift in Sources */,
