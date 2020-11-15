@@ -15,6 +15,7 @@
 		80A78D13256022200088A47A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A78D12256022200088A47A /* SettingsView.swift */; };
 		80A78D1B256022600088A47A /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A78D1A256022600088A47A /* SignInView.swift */; };
 		80A78D20256022BC0088A47A /* SignInWithAppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A78D1F256022BB0088A47A /* SignInWithAppleButton.swift */; };
+		80A78D25256126880088A47A /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A78D24256126880088A47A /* TaskListView.swift */; };
 		80D560CF25585FB500DDC792 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D560CE25585FB500DDC792 /* AppDelegate.swift */; };
 		80D560D125585FB500DDC792 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D560D025585FB500DDC792 /* SceneDelegate.swift */; };
 		80D560D325585FB500DDC792 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D560D225585FB500DDC792 /* ContentView.swift */; };
@@ -59,6 +60,7 @@
 		80A78D12256022200088A47A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		80A78D1A256022600088A47A /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		80A78D1F256022BB0088A47A /* SignInWithAppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButton.swift; sourceTree = "<group>"; };
+		80A78D24256126880088A47A /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 		80D560CB25585FB500DDC792 /* TasksApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasksApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D560CE25585FB500DDC792 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80D560D025585FB500DDC792 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				80A78D12256022200088A47A /* SettingsView.swift */,
 				80A78D1A256022600088A47A /* SignInView.swift */,
 				80A78D1F256022BB0088A47A /* SignInWithAppleButton.swift */,
+				80A78D24256126880088A47A /* TaskListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -513,6 +516,7 @@
 				80D560CF25585FB500DDC792 /* AppDelegate.swift in Sources */,
 				80A78D0525601D2E0088A47A /* TaskListViewModel.swift in Sources */,
 				80A78D0025601BF70088A47A /* TaskCellViewModel.swift in Sources */,
+				80A78D25256126880088A47A /* TaskListView.swift in Sources */,
 				80A78CFB25601B0A0088A47A /* SettingsViewModel.swift in Sources */,
 				80A78D1B256022600088A47A /* SignInView.swift in Sources */,
 				80D561322558651700DDC792 /* Task.swift in Sources */,
